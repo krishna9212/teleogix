@@ -1,0 +1,26 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+/* Body Styling */
+body {
+    /* background-color: #E80000; */
+     /* background-color: #ffa3a3; */
+     /* background-color: rgb(234, 56, 56); */
+     /* background-color: #fd9393; */
+     /* background-color: #e73a3a; */
+     /* background-color: white; */
+      background: #f8f9fa;
+}
+
+/* Container */
+.container {
+    padding-left: 2%;
+    padding-right: 2%;
+}

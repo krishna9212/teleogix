@@ -1,0 +1,221 @@
+/* =============== BASE STYLES =============== */
+.brands {
+    text-align: center;
+    width: 100%;
+    background: #fffdfb;
+    padding: 60px 20px;
+    margin-top: 85px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 40px;
+    min-height: 85vh;
+  }
+  
+  .splFont {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #F07C27;
+  }
+  
+  .brands h1 {
+    font-size: 3vw;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 40px;
+  }
+  
+  /* =============== SLIDER STYLES =============== */
+  .brand-slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 20px 0;
+    /* background: #fff6ef; */
+    border-radius: 20px;
+  }
+  
+  .brand-slide {
+    display: flex;
+    animation: slide 15s linear infinite;
+    gap: 50px;
+    min-width: max-content;
+    align-items: center;
+  }
+  
+  .brand-slide img {
+    width: 10vw;
+    height: 12vh;
+    min-width: 100px;
+    transition: transform 0.3s ease;
+    object-fit: contain;
+    filter: grayscale(100%) brightness(0.9);
+  }
+  
+  .brand-slide img:hover {
+    transform: scale(1.15);
+    filter: none;
+  }
+  
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  
+  /* =============== ACHIEVEMENTS =============== */
+  .achiev {
+    margin-top: 60px;
+  }
+  
+  .achiev h3 {
+    font-size: 2.2vw;
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(135deg, #F07C27, #ff944f);
+    padding: 15px 35px;
+    display: inline-block;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(240, 124, 39, 0.3);
+  }
+  
+  .achiev p {
+    font-size: 1.3vw;
+    color: #444;
+    margin: 20px 0;
+  }
+  
+  /* =============== NUMBERS =============== */
+  .numbers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 40px;
+  }
+  
+  .clients,
+  .growth {
+    background: linear-gradient(135deg, #F07C27, #ff944f);
+    color: #fff;
+    padding: 30px 35px;
+    width: 18vw;
+    min-width: 180px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 5px 8px 20px rgba(240, 124, 39, 0.3);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .clients:hover,
+  .growth:hover {
+    transform: scale(1.08);
+  }
+  
+  .clients h1,
+  .growth h1 {
+    font-size: 3vw;
+    font-weight: 700;
+  }
+  
+  .clients p,
+  .growth p {
+    font-size: 1.1vw;
+    font-weight: 500;
+  }
+  
+  /* =============== RESPONSIVE DESIGN =============== */
+  @media screen and (max-width: 1024px) {
+    .brands h1 {
+      font-size: 4vw;
+    }
+  
+    .achiev h3 {
+      font-size: 3vw;
+    }
+  
+    .achiev p {
+      font-size: 2vw;
+    }
+  
+    .clients h1,
+    .growth h1 {
+      font-size: 4vw;
+    }
+  
+    .clients p,
+    .growth p {
+      font-size: 2vw;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .brands {
+      padding: 40px 10px;
+    }
+  
+    .brands h1 {
+      font-size: 5vw;
+    }
+  
+    .achiev h3 {
+      font-size: 4vw;
+    }
+  
+    .achiev p {
+      font-size: 3vw;
+    }
+  
+    .numbers {
+      flex-direction: column;
+      gap: 25px;
+    }
+  
+    .clients,
+    .growth {
+      width: 60%;
+      padding: 25px;
+    }
+  
+    .clients h1,
+    .growth h1 {
+      font-size: 5vw;
+    }
+  
+    .clients p,
+    .growth p {
+      font-size: 3.5vw;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .brands h1 {
+      font-size: 6vw;
+    }
+  
+    .achiev h3 {
+      font-size: 5vw;
+      padding: 12px 25px;
+    }
+  
+    .achiev p {
+      font-size: 3.5vw;
+    }
+  
+    .clients,
+    .growth {
+      width: 80%;
+    }
+  
+    .clients h1,
+    .growth h1 {
+      font-size: 6vw;
+    }
+  
+    .clients p,
+    .growth p {
+      font-size: 4.5vw;
+    }
+  }
+  

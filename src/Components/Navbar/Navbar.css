@@ -1,0 +1,177 @@
+/* General Navbar Styling */
+.navbar {
+    width: 96%;
+    background: white;
+    color: #EE5E13;
+    padding: 15px 40px;
+    position: fixed;
+    top: 10px;
+    left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    border-radius: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Sticky Navbar Effect */
+.dark-nav {
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0px 4px 10px rgba(100, 37, 37, 0.4);
+}
+
+/* Logo */
+.logo {
+    width: 180px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    transition: 0.3s ease-in-out;
+}
+ 
+/* Navbar Items */
+.nav-links li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+
+
+
+/* Contact Button */
+.btn {
+    background: #EB601D;
+    color: white;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #ff5900;
+    /* transform: scale(1.05); */
+}
+
+.loan-nav{
+    text-decoration: none;
+    color: #EE5E13;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+
+/* Hamburger / Close Icon */
+.menu-icon {
+    display: none;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* ------- Responsive Design ----------- */
+
+/* Large Tablets & Small Laptops (Max Width: 1024px) */
+@media (max-width: 1024px) {
+    .logo {
+        width: 150px;
+    }
+
+    .nav-links {
+        gap: 20px;
+    }
+
+    .nav-links li {
+        font-size: 16px;
+    }
+}
+
+/* Tablets & Mobile (Max Width: 768px) */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 15px 25px;
+        border-radius: 30px;
+    }
+
+    .logo {
+        width: 140px;
+    }
+
+    .menu-icon {
+        display: block;
+        z-index: 1100;
+    }
+
+    /* Mobile Menu */
+    .nav-links {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        width: 250px;
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(10px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: -5px 0 10px rgba(0, 0, 0, 0.2);
+        transition: right 0.4s ease-in-out;
+    }
+
+    .nav-links li {
+        font-size: 18px;
+        margin: 15px 0;
+    }
+
+    .show-menu {
+        right: 0;
+    }
+}
+
+/* Mobile Devices (Max Width: 480px) */
+@media (max-width: 480px) {
+    .navbar {
+        padding: 10px 20px;
+        border-radius: 20px;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+    .nav-links {
+        width: 220px;
+    }
+
+    .nav-links li {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 18px;
+        padding: 8px 15px;
+    }
+}
