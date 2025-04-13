@@ -1,9 +1,9 @@
 import "./Testimonials.css";
-import user_1 from "../../assets/testi1.svg";
-import user_2 from "../../assets/testi2.svg";
-import user_3 from "../../assets/testi3.svg";
-import user_4 from "../../assets/testi4.svg";
-import user_5 from "../../assets/testi5.svg";
+import user_1 from "../../assets/Calling-rafiki.svg";
+import user_2 from "../../assets/Calling-pana.svg";
+import user_3 from "../../assets/Calling-bro.svg";
+import user_4 from "../../assets/Phone customization-bro.svg";
+import user_5 from "../../assets/Video call-bro.svg";
 import test_1 from "../../assets/user-1.png";
 import test_2 from "../../assets/user-2.png";
 import test_3 from "../../assets/user-3.png";
