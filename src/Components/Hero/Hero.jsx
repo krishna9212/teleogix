@@ -1,6 +1,6 @@
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import "./Hero.css";
-import homeImg from "../../assets/MainBannerr.svg";
+import homeImg from "../../assets/Mainbanerr.svg";
 import { Link as ScrollLink } from "react-scroll";
 
 const Hero = () => {

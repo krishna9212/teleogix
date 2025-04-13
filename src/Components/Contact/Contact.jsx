@@ -50,18 +50,17 @@ const Contact = () => {
           <li>
             {" "}
             <img src={mail_icon} alt="" />
-            arun@Teleogix.com
+            atul@teleogix.com
           </li>
           <li>
             {" "}
             <img src={phone_icon} alt="" />
-            +91 9999799821
+            +91 9999561821
           </li>
           <li>
             {" "}
             <img src={location_icon} alt="" />
-            H-146, Sector 63
-            Noida, UP 201301
+            H-146, Sector 63 Noida, UP 201301
           </li>
         </ul>
       </div>

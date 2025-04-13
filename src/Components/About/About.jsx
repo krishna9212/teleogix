@@ -4,9 +4,9 @@ import "./About.css";
 const About = () => {
   const [content, setContent] = useState({
     title: "FOUNDER & DIRECTOR",
-    name: "Arun Chauhan",
+    name: "Atul Chauhan",
     description:
-      "The visionary founder of Teleogix, holds an MBA with a concentration in marketing from Delhi Business School. With over 11 years of experience in sales and business development, Arun has consistently driven growth and innovation in the communications industry.",
+      "Atul Chauhan, founder of Teleogix, holds an MBA in Marketing and has 11+ years of experience in sales and business development. His leadership has helped Teleogix become a trusted name in API-based communication solutions. Atul aims to make business communication smarter, faster, and more effective through innovative telecom and internet technologies.",
     additionalInfo: "Click on the boxes to know more about us...",
   });
 
