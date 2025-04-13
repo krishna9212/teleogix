@@ -39,7 +39,7 @@ const Brands = () => {
           setHasAnimated(true);
         }
       },
-      { threshold: 0.9 }
+      { threshold: 0.3 }
     );
 
     if (sectionRef.current) {
